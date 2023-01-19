@@ -1,0 +1,110 @@
+@charset 'UTF-8';
+
+/* Paleta de Cores:
+    Background: #454d6b
+    Section de login: #353b50
+    Botao login: #a13854
+    Cor da fonte: #d6d7dc
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #454d6b;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+section#login{
+    position: relative;
+    display: block;
+    background-color: #353b50;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    width: 350px;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  
+  
+}
+
+section#login > div.form{
+    display: block;
+    padding: 8px;
+}
+div.form > form > label.campo{
+    display: block;
+    color:#d6d7dc;
+    margin-top: 20px;
+    text-indent: 30px;
+    text-align: left;
+    width: 80%;
+}
+div.form >  h1{
+    display: block;
+    font-size: 2em;
+    color: #d6d7dc ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    text-align: left;
+    text-indent: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+   
+}
+
+div.form > form > input{
+    display: block;
+    margin: auto;
+    background-color: #353b50;
+    border: none;
+    border-bottom: 1px solid #d6d7dc;
+    width: 80%;
+    height: 50px;
+}
+
+div.form > form > input:focus-within{
+    background-color: white;
+    border: #353b50;
+}
+
+section#login > div.form > input[type=submit]{
+    display: block;
+    border: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    width: 81%;
+    height: 50px;
+    background-color: #a13854;
+    color: #d6d7dc;
+    transform: translateX(32px);
+    cursor: pointer;
+}
+section#login > div.form > input[type=submit]:hover{
+    background-color: #752a3e;
+}
+
+section#login > div.form > a {
+    display: block;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #d6d7dc;
+    font-size: 0.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

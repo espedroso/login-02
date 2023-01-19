@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div class="form">
+                <h1>Login</h1>
+                <form action="login.php" method="post" autocomplete="on">
+                    <label class="campo" for="iuser">Usuário</label>
+                    <input type="text" name="user" id="iuser" autocomplete="name" required maxlength="40">
+                    <label class="campo" for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="20">
+            
+                </form>
+                <input type="submit" value="Login">
+                <a href="#">Esqueceu a senha?</a>
+
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
