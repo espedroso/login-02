@@ -12,18 +12,33 @@
 </head>
 <body>
     <main>
-        <setion id="login">
-            <div class="campo">
+        <section id="login">
+            <div class="form">
                 <h1>Login</h1>
                 <form action="login.php" method="post" autocomplete="on">
+                    <span class="material-icons">
+                        person_outline
+                        </span>
                     <label for="iuser">Usuário</label>
                     <input type="text" name="user" id="isuer" autocomplete="nickname" required maxlength="20">
 
+                    <span class="material-icons">
+                        lock
+                        </span> 
                     <label for="isenha">Senha</label>
-                    input
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="20">
+
+                    <input type="checkbox" name="check" id="icheck">
+                    <label for="icheck">Lembrar-me</label>
+
+                    <a class="fp" href="#">Esqueceu a senha?</a>
+
+                    <input type="submit" value="Login">
+
                 </form>
             </div>
-        </setion>
+        </section>
+        <p>Novo por aqui?</p> <a href="#">Inscreva-se</a>
     </main>
 </body>
 </html>
