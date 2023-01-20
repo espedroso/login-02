@@ -35,15 +35,21 @@ section#login {
     position: relative;
     background-color: #f2f2f2;
     width: 300px;
-    height: 450px;
+    height: 400px;
     overflow: hidden;
     top: 50%;
     left: 50%;
     border-radius: 10px;
-    transform: translate(-50px, -50px);
+    transform: translate(-50%, -50%);
+    
 }
 
-div.form{
+section#login > div.text{
+    display: block;
+    float: left;
+    
+}
+section#login > div.form{
     display: block;
     padding: 8px;
 }
@@ -51,7 +57,102 @@ div.form{
 div.form > h1 {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 30px;
     color: #aaa9b0 ;
     font-size: 1.8em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.form > form >span{
+display: block;
+background-color: white;
+padding: 15px;
+margin: 10px 0px;
+color: #fbc007;
+text-align: center;
+font-size: 1.5em;
+border: none;
+border-radius: 10px 0px 0px 10px;
+width: 20%;
+height: 50px;
+float: left;
+
+
+}
+
+div.form > form > label.campo {
+    display: none;
+}
+
+div.form > form > input#isuer, div.form > form > input#isenha {
+    display: block;
+    background-color: white;
+    margin: 10px 0px;
+    text-align: left;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    float: right;
+    transform: translateY(0px);
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+div.form > form > input[type=checkbox] {
+  
+    color: #aaa9b0;
+    border-radius: 0px;
+    border: none;
+}
+
+div.form > form > label.check {
+    
+    font-size: 0.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #aaa9b0;
+}
+
+a.fp{
+    margin-left: 80px;
+    color: #fbbe079a;
+    font-family: Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: 0.8em;
+    
+}
+
+div.form > form > input[type=submit]{
+    display: block;
+    background-color:  #ffc50c;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    transform: translate(30px);
+    cursor: pointer;
+   
+    
+}
+
+main p{
+    position: relative;
+    color: #aaa9b0;
+    margin-left: 420px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translateY(800%);
+  
+}
+main p > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
