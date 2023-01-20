@@ -17,11 +17,44 @@ Grandes Telas:   Acima de 1200px
 /* Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 600px;
+        height: 500px;
+    }
+
+    div.form >  h1{
+        transform: translateX(25px);
+    }
+    div.form > form > label.campo{
+      
+        width: 80%;
+        transform: translateX(25px);
+    }
+    section#login > div.form > input[type=submit]{
+        transform: translateX(55px);
+    }
+
     
 }
 
 /* Telas Grandes */
 
 @media screen and (min-width: 992px) {
-    
+    section#login {
+        width: 600px;
+        height: 500px;
+    }
+
+    div.form >  h1{
+        transform: translateX(25px);
+    }
+    div.form > form > label.campo{
+      
+        width: 80%;
+        transform: translateX(25px);
+    }
+    section#login > div.form > input[type=submit]{
+        transform: translateX(55px);
+    }
+   
 }

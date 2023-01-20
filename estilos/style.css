@@ -36,8 +36,10 @@ section#login{
     overflow: hidden;
     width: 350px;
     height: 500px;
-    transform: translate(-50%, -50%);
     border-radius: 5px;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease;
+   
   
   
 }
